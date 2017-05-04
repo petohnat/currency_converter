@@ -4,7 +4,7 @@
 
 Simple currency converter package. Program supports 109 various currency
 shortcuts and symbols. Program is using http://rate-exchange-1.appspot.com API
-for online conversion and retrieve data in json format.
+for online conversion and retrieves data in json format.
 For various currency symbols program uses dictionary, which was retrieved from http://www.xe.com/symbols.php.
 
 ## Parameters
