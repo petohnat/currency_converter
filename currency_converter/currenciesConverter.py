@@ -42,4 +42,4 @@ class CurrenciesConvertor:
 
     # Print conversion result
     def getConversionResult(self):
-        print(json.dumps(self.actualOutput, indent=4))
+        print(json.dumps(self.actualOutput, indent=4, sort_keys=True))

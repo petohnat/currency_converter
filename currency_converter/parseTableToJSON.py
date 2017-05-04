@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-# Function parse HTML table and store data
+# Function parse HTML table and store data in dictionary
 def parseTable():
     html_data = open("table.html", "r")
 

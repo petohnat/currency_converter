@@ -20,7 +20,6 @@ class CurrenciesDictionary:
                 utf8Symbol = str(ord(currSymbol.decode('utf-8')))
                 if utf8Symbol in self.duplicates:
                     convertingToCurrenciesNames.append(self.duplicates[str(ord(currSymbol.decode('utf-8')))])
-                    # singleCurrencyName = self.duplicates[str(ord(currSymbol.decode('utf-8')))]
                     return convertingToCurrenciesNames
 
             except:
