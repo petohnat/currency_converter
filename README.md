@@ -19,15 +19,14 @@ For various currency symbols program uses dictionary, which was retrieved from h
     (default currency names are specified in currenciesDictionary.py)
 
 ## Installation and Requirements
-Package will be installed with pipy package manager:
-
-    pipy install currency_convertor
 
 Requirements:
 - Python 2.7
 - simplejson package
 - beautifulsoup4 package
 - Internet Connection
+
+For correct functioning, you need to have installed all packages.
 
 ## Examples
 - json with following structure.
